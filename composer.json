@@ -1,0 +1,30 @@
+{
+    "name": "setasign/pdf-stamper",
+    "homepage": "https://www.setasign.com/fpdi-pdf-parser",
+    "description": "A commercial add-on for FPDI which allows PHP developer to import PDF document which use a special compression technic introduced in PDF 1.5.",
+    "type": "library",
+    "keywords": [
+        "pdf",
+        "fpdi",
+        "fpdf"
+    ],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jan Slabon",
+            "email": "jan.slabon@setasign.com",
+            "homepage": "https://www.setasign.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "setasign\\SetaPDF\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+    },
+    "require-dev": {
+
+    }
+}
